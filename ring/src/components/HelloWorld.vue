@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-	  新的页面
+	  移动端
   </div>
 </template>
 

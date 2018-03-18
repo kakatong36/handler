@@ -4,9 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import $ from 'jquery'
+import _ from 'lodash'//lodash的全局变量
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min'
-import $ from 'jquery'
+import 'bootstrap/js/dist/carousel'
 
 Vue.config.productionTip = false
 

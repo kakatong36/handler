@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="hello container-fluid">
 	  <!-- 轮播图 -->
 	  <div id='ring_slide' class='carousel slide'>
 		  <!-- 轮播小点点 -->

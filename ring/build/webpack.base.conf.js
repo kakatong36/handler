@@ -27,7 +27,8 @@ module.exports = {
     extensions: ['.js', '.vue', '.json'],
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
-      '@': resolve('src'),
+      '@': resolve('src'),  
+	  'jquery': "jquery/src/jquery"
     }
   },
   module: {
@@ -75,7 +76,8 @@ module.exports = {
   plugins: [
     new webpack.ProvidePlugin({
       $: "jquery",
-	  jQuery: "jquery",
+	  jQuery: "jquery", 
+	  "windows.jQuery":"jquery",
 	  Popper: ['popper.js', 'default']
     })
   ],

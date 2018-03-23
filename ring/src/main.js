@@ -5,10 +5,11 @@ import App from './App'
 import router from './router'
 
 import $ from 'jquery'
+import './common.scss'
 import _ from 'lodash'//lodash的全局变量
 import 'bootstrap/dist/js/bootstrap.min.js'
-import 'bootstrap/dist/css/bootstrap.min.css'
-// import 'bootstrap'   
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap'   
 
 Vue.config.productionTip = false
 /* eslint-disable no-new */

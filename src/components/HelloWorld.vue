@@ -2,8 +2,9 @@
   	<div class="hello">
 		 <!-- 导航 -->
 		<div class="container">
+			<!-- <Cascader :data="cascList" size="large"></Cascader> -->
 			<div class='row'>
-				<div class='col-lg-3 col-sm-6'>
+				<!-- <div class='col-lg-3 col-sm-6'>
 					<img src="../assets/01.jpg" alt="">
 				</div>
 				<div class='col-lg-3 col-sm-6'>
@@ -14,7 +15,7 @@
 				</div>
 				<div class='col-lg-3 col-sm-6'>
 					<img src="../assets/04.jpg" alt="">
-				</div>
+				</div> -->
 			</div>
 		</div>
   	</div>
@@ -25,6 +26,26 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
+		cascList: [
+			{
+				value: 'beijing',
+				label: '北京',
+				children: [
+					{
+						value: 'gugong',
+						label: '故宫'
+					},
+					{
+						value: 'tiantan',
+						label: '天坛'
+					},
+					{
+						value: 'wangfujing',
+						label: '王府井'
+					}
+				]
+			}
+		]
     }
   },
   methods: {

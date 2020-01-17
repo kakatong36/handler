@@ -28,7 +28,7 @@
 </template>
 <script>
 import mscroll from "./js/mscroll";
-import jqueryOne from "./js/jquery-1.11.0.min";
+// import jqueryOne from "./js/jquery-1.11.0.min";
 const urlName = "https://www.17sucai.com/preview/313588/2018-12-29/mscroll";
 const imgList = [
   {

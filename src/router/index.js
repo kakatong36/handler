@@ -14,6 +14,11 @@ export default new Router({
           path: '/scrollList',
           name: 'scrollList',
           component: resolve => require(['@/components/scroll/list'], resolve),
+        },
+        {
+          path: '/dragList',
+          name: 'dragList',
+          component: resolve => require(['@/components/drag/list'], resolve),
         }
       ]
     }
